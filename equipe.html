@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossa Equipe | TechSolutions</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1f4e79;
+            color: white;
+            text-align: center;
+            padding: 35px 20px;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background-color: #163957;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .introducao {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .equipe {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .integrante {
+            background-color: white;
+            width: 280px;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .integrante img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .integrante h3 {
+            color: #1f4e79;
+            margin-bottom: 5px;
+        }
+
+        .cargo {
+            color: #777;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: #163957;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>TechSolutions</h1>
+        <p>Conheça as pessoas por trás das nossas soluções.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="equipe.html">Equipe</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <main>
+
+        <section class="introducao">
+            <h2>Nossa Equipe</h2>
+            <p>
+                Contamos com profissionais dedicados e apaixonados
+                por tecnologia, inovação e desenvolvimento.
+            </p>
+        </section>
+
+        <section class="equipe">
+
+            <article class="integrante">
+                <img src="https://i.pravatar.cc/150?img=12"
+                     alt="Foto de Ana Souza">
+                <h3>Ana Souza</h3>
+                <p class="cargo">Diretora Executiva</p>
+                <p>
+                    Responsável pela gestão da empresa,
+                    planejamento estratégico e relacionamento
+                    com os clientes.
+                </p>
+            </article>
+
+            <article class="integrante">
+                <img src="https://i.pravatar.cc/150?img=13"
+                     alt="Foto de Carlos Mendes">
+                <h3>Carlos Mendes</h3>
+                <p class="cargo">Desenvolvedor de Software</p>
+                <p>
+                    Especialista em desenvolvimento web,
+                    criação de sistemas e soluções tecnológicas
+                    para empresas.
+                </p>
+            </article>
+
+            <article class="integrante">
+                <img src="https://i.pravatar.cc/150?img=47"
+                     alt="Foto de Mariana Lima">
+                <h3>Mariana Lima</h3>
+                <p class="cargo">Designer UX/UI</p>
+                <p>
+                    Responsável pela criação de interfaces,
+                    identidade visual e experiência dos
+                    usuários em nossos projetos.
+                </p>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TechSolutions. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
